@@ -3,7 +3,7 @@
 ## Cloning the Project
 First, clone the repository to your local machine using the following command:
 ````
-git clone <your-repository-url>
+git clone https://github.com/shehata18/peoject_uis
 ````
 
 ## Configuration
