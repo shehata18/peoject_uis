@@ -55,6 +55,7 @@ http://127.0.0.1:8000/api/documentation
 To test the webhook when calling (PUT) /api/orders/{order} to change order status, 
 open this link in your browser to see the result of the webhook:
 https://webhook.site/#!/view/3e07ad06-96a0-4544-ace5-3b00d35ba073
+![image](https://github.com/user-attachments/assets/2b02532d-da57-4567-9ac6-96ef5fd5ec68)
 
 
 
