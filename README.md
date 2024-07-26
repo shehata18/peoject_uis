@@ -7,11 +7,16 @@ git clone https://github.com/shehata18/peoject_uis
 ````
 
 ## Configuration
-1- Change the database name to project_uis in the .env file:
+1-You can take copy of .env.example file and rename to .env and make following configrations
+
+2- Change the database name to project_uis in the .env file:
 ```
 DB_DATABASE=project_uis
 ```
-2- At the end of the .env file, add this line:
+![code](https://github.com/user-attachments/assets/85ba19bd-e9ed-4f7d-b65b-00ced709ee21)
+
+
+3- At the end of the .env file, add this line:
 ```
 WEBHOOK_URL=https://webhook.site/3e07ad06-96a0-4544-ace5-3b00d35ba073
 ```
@@ -50,11 +55,14 @@ To browse the API documentation, navigate to:
 http://127.0.0.1:8000/api/documentation
 ````
 
+![L5-Swagger-UI](https://github.com/user-attachments/assets/c0073f1e-70cf-4597-a9cb-d13b9c3dbaf4)
+
 
 ### Testing Webhook
 To test the webhook when calling (PUT) /api/orders/{order} to change order status, 
 open this link in your browser to see the result of the webhook:
 https://webhook.site/#!/view/3e07ad06-96a0-4544-ace5-3b00d35ba073
+
 ![image](https://github.com/user-attachments/assets/2b02532d-da57-4567-9ac6-96ef5fd5ec68)
 
 
