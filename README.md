@@ -29,6 +29,7 @@ php artisan migrate
 ```
 # Option 2: Using a Local Server
 Run XAMPP or any local server to import the database. 
+Database file called `project_uis.sql` , will found in project files
 Make sure the database name matches `project_uis`.
 
 # Running the Project
