@@ -7,11 +7,11 @@ git clone https://github.com/shehata18/peoject_uis
 ````
 
 ## Configuration
-1-You can take copy of .env.example file and rename to .env and make following configrations
-    and to generate APP_KEY , you can use this command
-    ```
-    php artisan key:generate
-    ```
+1- .env file should not upload, so i encrypted it to upload it , Now you can decrypt this file by this command
+with this flag ```--key=base64:dc5VHFt98nfVU1ZPwC9qY9yiEyGlmsQvuUK+xpjNmCQ= ```
+```
+php artisan env:decrypt --key=base64:dc5VHFt98nfVU1ZPwC9qY9yiEyGlmsQvuUK+xpjNmCQ=
+```
 
 2- Change the database name to project_uis in the .env file:
 ```
