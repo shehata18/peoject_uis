@@ -7,7 +7,7 @@ git clone https://github.com/shehata18/peoject_uis
 ````
 
 ## Configuration
-1- .env file should not upload, so i encrypted it to upload it , Now you can decrypt this file by this command
+1- .env file should not upload, so i encrypted .env file to upload it , Now you can decrypt this file by this command
 with this flag ```--key=base64:dc5VHFt98nfVU1ZPwC9qY9yiEyGlmsQvuUK+xpjNmCQ= ```
 ```
 php artisan env:decrypt --key=base64:dc5VHFt98nfVU1ZPwC9qY9yiEyGlmsQvuUK+xpjNmCQ=
